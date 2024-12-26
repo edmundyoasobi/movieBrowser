@@ -16,7 +16,7 @@ A simple iOS app to browse and view movies, including their details, images, and
 2. **Install Dependencies**:
   After cloning the project, navigate to the project directory and install the necessary dependencies using CocoaPods:
 ```bash
-cd movieBrowser
+cd movieBrowser2
 pod install
 ```
 
