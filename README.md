@@ -22,7 +22,7 @@ pod install
 
 3. **Configure the API Key**:
 
-Rename the TemplateApiKeys.plist file to ApiKeys.plist.
+Duplicate the TemplateApiKeys.plist file and rename it to ApiKeys.plist.
 Open the ApiKeys.plist file and replace <string>YOUR_API_KEY_HERE</string> with your actual API key from [The Movie Database (TMDb)].(https://developers.themoviedb.org/3)
 Example:
 
