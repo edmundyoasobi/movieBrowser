@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8922122249D4CDE353A083 /* Pods_MovieBrowser2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DEB70DBD2BDE7579DD6E9A /* Pods_MovieBrowser2.framework */; };
 		C23A1EBF2D1BF7610095ACBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1EBE2D1BF7610095ACBB /* AppDelegate.swift */; };
 		C23A1EC12D1BF7610095ACBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1EC02D1BF7610095ACBB /* SceneDelegate.swift */; };
-		C23A1EC32D1BF7610095ACBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1EC22D1BF7610095ACBB /* ViewController.swift */; };
 		C23A1EC62D1BF7620095ACBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C23A1EC52D1BF7620095ACBB /* Base */; };
 		C23A1EC82D1BF7630095ACBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23A1EC72D1BF7630095ACBB /* Assets.xcassets */; };
 		C23A1ECB2D1BF7630095ACBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C23A1ECA2D1BF7630095ACBB /* Base */; };
+		C23A1ED32D1C0F950095ACBB /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1ED22D1C0F950095ACBB /* MovieTableViewCell.swift */; };
+		C23A1ED72D1C12B00095ACBB /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1ED62D1C12B00095ACBB /* MovieTableViewController.swift */; };
+		C23A1ED92D1C54130095ACBB /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1ED82D1C54130095ACBB /* NetworkingManager.swift */; };
+		C23A1EDB2D1C57020095ACBB /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1EDA2D1C57020095ACBB /* MovieResponse.swift */; };
+		C23A1EE22D1D2E300095ACBB /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1EE12D1D2E300095ACBB /* MovieDetailsViewController.swift */; };
+		C23A1EE42D1D66E10095ACBB /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A1EE32D1D66E10095ACBB /* UIViewController+Extensions.swift */; };
+		C27310CC2D1D927A0055081E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = C27310CB2D1D927A0055081E /* SDWebImage */; };
+		C27310CE2D1D927A0055081E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C27310CD2D1D927A0055081E /* SDWebImageMapKit */; };
+		C27310D02D1D94B70055081E /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = C27310CF2D1D94B70055081E /* APIKeys.plist */; };
+		C27310DA2D1D9EE50055081E /* TemplateApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = C27310D92D1D9EE50055081E /* TemplateApiKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70DEB70DBD2BDE7579DD6E9A /* Pods_MovieBrowser2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieBrowser2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC382D249FCA7FFA862F2DA /* Pods-MovieBrowser2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieBrowser2.debug.xcconfig"; path = "Target Support Files/Pods-MovieBrowser2/Pods-MovieBrowser2.debug.xcconfig"; sourceTree = "<group>"; };
 		C23A1EBB2D1BF7610095ACBB /* MovieBrowser2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBrowser2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23A1EBE2D1BF7610095ACBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C23A1EC02D1BF7610095ACBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C23A1EC22D1BF7610095ACBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C23A1EC52D1BF7620095ACBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C23A1EC72D1BF7630095ACBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23A1ECA2D1BF7630095ACBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23A1ECC2D1BF7630095ACBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23A1ED22D1C0F950095ACBB /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		C23A1ED62D1C12B00095ACBB /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		C23A1ED82D1C54130095ACBB /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		C23A1EDA2D1C57020095ACBB /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		C23A1EE12D1D2E300095ACBB /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		C23A1EE32D1D66E10095ACBB /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		C27310CF2D1D94B70055081E /* APIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		C27310D92D1D9EE50055081E /* TemplateApiKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateApiKeys.plist; sourceTree = "<group>"; };
+		F46FF12B1BEE585F53BB5907 /* Pods-MovieBrowser2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieBrowser2.release.xcconfig"; path = "Target Support Files/Pods-MovieBrowser2/Pods-MovieBrowser2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27310CC2D1D927A0055081E /* SDWebImage in Frameworks */,
+				C27310CE2D1D927A0055081E /* SDWebImageMapKit in Frameworks */,
+				1F8922122249D4CDE353A083 /* Pods_MovieBrowser2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AB516681DF328C0896AC797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC382D249FCA7FFA862F2DA /* Pods-MovieBrowser2.debug.xcconfig */,
+				F46FF12B1BEE585F53BB5907 /* Pods-MovieBrowser2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73292F123FDA173BEC954D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70DEB70DBD2BDE7579DD6E9A /* Pods_MovieBrowser2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C23A1EB22D1BF7610095ACBB = {
 			isa = PBXGroup;
 			children = (
 				C23A1EBD2D1BF7610095ACBB /* MovieBrowser2 */,
 				C23A1EBC2D1BF7610095ACBB /* Products */,
+				6AB516681DF328C0896AC797 /* Pods */,
+				73292F123FDA173BEC954D36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,70 @@
 		C23A1EBD2D1BF7610095ACBB /* MovieBrowser2 */ = {
 			isa = PBXGroup;
 			children = (
+				C27310D12D1D9C040055081E /* Sources */,
 				C23A1EBE2D1BF7610095ACBB /* AppDelegate.swift */,
 				C23A1EC02D1BF7610095ACBB /* SceneDelegate.swift */,
-				C23A1EC22D1BF7610095ACBB /* ViewController.swift */,
 				C23A1EC42D1BF7620095ACBB /* Main.storyboard */,
 				C23A1EC72D1BF7630095ACBB /* Assets.xcassets */,
 				C23A1EC92D1BF7630095ACBB /* LaunchScreen.storyboard */,
 				C23A1ECC2D1BF7630095ACBB /* Info.plist */,
+				C27310CF2D1D94B70055081E /* APIKeys.plist */,
+				C27310D92D1D9EE50055081E /* TemplateApiKeys.plist */,
 			);
 			path = MovieBrowser2;
+			sourceTree = "<group>";
+		};
+		C27310D12D1D9C040055081E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C27310D62D1D9CA10055081E /* Extensions */,
+				C27310D52D1D9C6E0055081E /* Views */,
+				C27310D42D1D9C390055081E /* Models */,
+				C27310D32D1D9C1D0055081E /* Networking */,
+				C27310D22D1D9C140055081E /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C27310D22D1D9C140055081E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C23A1ED62D1C12B00095ACBB /* MovieTableViewController.swift */,
+				C23A1EE12D1D2E300095ACBB /* MovieDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C27310D32D1D9C1D0055081E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C23A1ED82D1C54130095ACBB /* NetworkingManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C27310D42D1D9C390055081E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C23A1EDA2D1C57020095ACBB /* MovieResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C27310D52D1D9C6E0055081E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C23A1ED22D1C0F950095ACBB /* MovieTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C27310D62D1D9CA10055081E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C23A1EE32D1D66E10095ACBB /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C23A1ECF2D1BF7630095ACBB /* Build configuration list for PBXNativeTarget "MovieBrowser2" */;
 			buildPhases = (
+				86D6D5A89A8EE94D04604B23 /* [CP] Check Pods Manifest.lock */,
 				C23A1EB72D1BF7610095ACBB /* Sources */,
 				C23A1EB82D1BF7610095ACBB /* Frameworks */,
 				C23A1EB92D1BF7610095ACBB /* Resources */,
@@ -83,6 +181,10 @@
 			dependencies = (
 			);
 			name = MovieBrowser2;
+			packageProductDependencies = (
+				C27310CB2D1D927A0055081E /* SDWebImage */,
+				C27310CD2D1D927A0055081E /* SDWebImageMapKit */,
+			);
 			productName = MovieBrowser2;
 			productReference = C23A1EBB2D1BF7610095ACBB /* MovieBrowser2.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +213,9 @@
 				Base,
 			);
 			mainGroup = C23A1EB22D1BF7610095ACBB;
+			packageReferences = (
+				C27310CA2D1D927A0055081E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = C23A1EBC2D1BF7610095ACBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,19 +231,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				C23A1EC82D1BF7630095ACBB /* Assets.xcassets in Resources */,
+				C27310D02D1D94B70055081E /* APIKeys.plist in Resources */,
 				C23A1ECB2D1BF7630095ACBB /* Base in Resources */,
 				C23A1EC62D1BF7620095ACBB /* Base in Resources */,
+				C27310DA2D1D9EE50055081E /* TemplateApiKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86D6D5A89A8EE94D04604B23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieBrowser2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C23A1EB72D1BF7610095ACBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23A1EC32D1BF7610095ACBB /* ViewController.swift in Sources */,
+				C23A1EE22D1D2E300095ACBB /* MovieDetailsViewController.swift in Sources */,
+				C23A1EDB2D1C57020095ACBB /* MovieResponse.swift in Sources */,
+				C23A1ED72D1C12B00095ACBB /* MovieTableViewController.swift in Sources */,
+				C23A1ED32D1C0F950095ACBB /* MovieTableViewCell.swift in Sources */,
+				C23A1EE42D1D66E10095ACBB /* UIViewController+Extensions.swift in Sources */,
+				C23A1ED92D1C54130095ACBB /* NetworkingManager.swift in Sources */,
 				C23A1EBF2D1BF7610095ACBB /* AppDelegate.swift in Sources */,
 				C23A1EC12D1BF7610095ACBB /* SceneDelegate.swift in Sources */,
 			);
@@ -287,12 +424,13 @@
 		};
 		C23A1ED02D1BF7630095ACBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC382D249FCA7FFA862F2DA /* Pods-MovieBrowser2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8B2YXZHYU7;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieBrowser2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -307,6 +445,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edmund.MovieBrowser2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,12 +454,13 @@
 		};
 		C23A1ED12D1BF7630095ACBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46FF12B1BEE585F53BB5907 /* Pods-MovieBrowser2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8B2YXZHYU7;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieBrowser2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -335,6 +475,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edmund.MovieBrowser2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,6 +504,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C27310CA2D1D927A0055081E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C27310CB2D1D927A0055081E /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C27310CA2D1D927A0055081E /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		C27310CD2D1D927A0055081E /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C27310CA2D1D927A0055081E /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C23A1EB32D1BF7610095ACBB /* Project object */;
 }

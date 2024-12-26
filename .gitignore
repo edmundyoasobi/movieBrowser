@@ -1,0 +1,9 @@
+APIKeys.plist
+# CocoaPods
+Pods/
+Podfile.lock
+Podfile.local
+# Xcode
+*.xcuserstate
+*.xcworkspace
+DerivedData/
