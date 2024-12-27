@@ -47,6 +47,7 @@ In contrast, if you were to use FileManager and URLSession, you would have to im
 **Potential Improvements**
 We might able to do image Compression where we can reduce the size of images before storing or displaying them to improve performance 
 Beside documentation can be included in the code itself
+Improve code readability by breaking down large functions and components into smaller, reusable pieces.
 
 **API Key COnfiguration**
 I used a .plist file where this approach keeps the API key secure within the app, as it is not hardcoded into your code, and makes it easier to manage different API keys for various environments (e.g., development, staging, production).
