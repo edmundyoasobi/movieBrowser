@@ -49,5 +49,5 @@ We might able to do image Compression where we can reduce the size of images bef
 Beside documentation can be included in the code itself
 Improve code readability by breaking down large functions and components into smaller, reusable pieces.
 
-**API Key COnfiguration**
+**API Key Configuration**
 I used a .plist file where this approach keeps the API key secure within the app, as it is not hardcoded into your code, and makes it easier to manage different API keys for various environments (e.g., development, staging, production).
